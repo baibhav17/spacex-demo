@@ -6,8 +6,8 @@ In this project I have created a ReactJS webapp. The purpose of this web app is 
 
 - **ReactJS** - I have used reactjs as front end library in this project.
 - **NextJs** - I have used NextJS in order to fetch the initial "list" of programs using Server Side Rendering. NextJS is zero config SSR framework hence it prevents task of writing boilerplate code for ssr. Also it has other features like AMP support and Static Site Generation (SSG) support. It also support hybrid sites with both SSG and SSR.
-- **SCSS**- I have used SASS for providing styles to my web app. I have used it's powerful tools like variables which is very helpful in DRY practices.I also used BEM methodology which when combined with SCSS is very powerful.
-- **HTML**- Used the latest HTML5 tags for better context
+- **SCSS**- I have used SASS for providing styles to my web app. I have used it's features like variables which is very helpful in DRY practices.I also used BEM(Block Element Modifier) methodology which when combined with SCSS is very powerful.
+- **HTML**- Used the latest HTML5 semantic tags for better context
 
 # Project Breakdown
 

@@ -11,7 +11,14 @@ In this project I have created a ReactJS webapp. The purpose of this web app is 
 
 # Project Breakdown
 
-So whole project was broken down in following parts : - Fetching the data from SpaceX Api in server side and send it for initial page view. - Creating a UI in reactjs based on the data we got from spacex - Hit SpaceX api on client side when a **"filter"** is applied. - Making Sure site is responsive in different screens. - Hosting the project - Making sure project has good web vitals/ lighthouse score
+So whole project was broken down in following parts :
+
+- Fetching the data from SpaceX Api in server side and send it for initial page view.
+- Creating a UI in reactjs based on the data we got from spacex
+- Hit SpaceX api on client side when a **"filter"** is applied.
+- Making Sure site is responsive in different screens.
+- Hosting the project
+- Making sure project has good web vitals/ lighthouse score
 
 # How I achieved the tasks
 

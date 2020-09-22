@@ -7,6 +7,10 @@ const Layout = ({ body, sidebar }) => {
   return (
     <>
       <Head>
+        <meta
+          name="description"
+          content="This is a sample ui page for the spacex api. This will enlist all the spacex programs."
+        ></meta>
         <title>Spacex Launch Programs</title>
       </Head>
 

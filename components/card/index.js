@@ -5,7 +5,7 @@ const Card = ({ imgLink, title, children }) => {
   return (
     <section className="card">
       <div className="card__header">
-        <img src={imgLink} className="card__image" />
+        <img alt={title} src={imgLink} className="card__image" />
       </div>
       <div className="card__body">
         <h2 className="card__title">{title}</h2>

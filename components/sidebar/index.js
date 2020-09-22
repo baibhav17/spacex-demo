@@ -43,6 +43,7 @@ const Sidebar = () => {
     { title: "Successful Landing", items: TF, onClick: applyLandingFilter },
   ];
   useEffect(() => {
+    mounted.current = true;
     const newQueryString = generateQueryString(filters);
     fetchNewData(newQueryString);
     return () => {

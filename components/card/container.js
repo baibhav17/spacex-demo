@@ -50,8 +50,9 @@ const MissionIdContainer = ({ missionIdList }) => {
   return (
     <>
       <div className="list__title">Mission Ids:</div>
+
+      {missionIdList.length == 0 && "No missions Ids found"}
       <ul className="list__container">
-        {missionIdList.length == 0 && "No missions Ids found"}
         {missionIdList.map((id, index) => (
           <li key={`mission_id ${index}`}>{id}</li>
         ))}

@@ -26,7 +26,7 @@ So whole project was broken down in following parts :
 - **Creating a UI in react**: This part required making a ui out of the data. The whole UI was divided in various modules. I divided it into various modules , like "Components" for raw pure components, "Layout" for structure of UI, And "Providers" for global things like loaders.
 - **Hit SpaceX api on client side after applying filters**: Here i used the modern era "Hooks" , like **useEffect** ,**useState** and **useContext** to achieve the functionality.I did not use any class based components in the project. Everything was a functional component.
 - **Making Sure site is responsive** : Here i used latest "Grid Layout" of CSS . Coupled with few media queries , our page got responsive on every screen
-- **Hosting the Project** : To host the project i used [VERCEL](https://vercel.com). It provide awesome features like continuous integration(CI) from your git project. It also gives us a cdn on edge network which makes sure our project runs fast, and it is all for free.
+- **Hosting the Project** : To host the project I used [VERCEL](https://vercel.com). It provide amazing features like continuous integration(CI) from your git project. It also gives us a cdn on edge network which makes sure our project runs fast, and it is all for free.
 - **Achieving good lighthouse score**: Since I used server side rendering , app's SEO automatically got better. Our other web vitals improved too. I made sure to use semantic UI and follow accessibility standards. Coupled with vercel's edge network , I was able to achieve a pretty good lighthouse score.
 
 ### Screenshot of Lighthouse Score :

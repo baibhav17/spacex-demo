@@ -19,9 +19,9 @@ export const CardContainer = ({ items }) => {
         const land_success_string = land_success ? "Yes" : "No";
         const fields = [
           { title: "Mission Ids", value: mission_ids },
-          { title: "Land Success", value: land_success_string },
           { title: "Launch Year", value: launch_year },
           { title: "Successful Launch", value: launch_success_string },
+          { title: "Successful Landing", value: land_success_string },
         ];
         return (
           <Card

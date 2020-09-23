@@ -1,6 +1,6 @@
 export const getYears = () => {
   // to generate years from 2006 - 2020
-  return Array(14)
+  return Array(15)
     .fill(2006)
     .map((value, index) => {
       return (value + index).toString();
